@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fancify Shamcify</title>
+
+		
+		<style>
+			fieldset {
+				border: 2px solid #ccc;
+				padding: 10px;
+				margin-bottom: 20px;
+			}
+			legend {
+				font-weight: bold;
+			}
+		</style>
+		
+	</head>
+
+	<body>
+		<h1>Fancify my Text</h1>
+		
+		<fieldset>
+			<legend>Text</legend>
+			<textarea id="userText" rows="4" cols="30" placeholder="Enter your text here.." name="" id=""></textarea>
+		</fieldset>
+
+		<fieldset>
+			<legend>Fancify</legend>
+			<button id="biggerButton" type="button">Bigger!</button>
+			<div>
+				<label>
+					<input id="fancyRadio" type="radio" name="style" value="FancyShmancy" onchange="styleText()">FancyShmancy
+				</label>
+				<label>
+					<input id="boringRadio" type="radio" name="style"  value="BoringBetty" onchange="styleText()">BoringBetty
+				</label>
+			</div>
+			<button id="mooButton" type="button" onclick="mooText()">Moo</button>
+
+		</fieldset>
+
+		<script src="../Assignment 5/fancifymytext.js"></script>
+	</body>
+</html>
